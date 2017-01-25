@@ -1,0 +1,143 @@
+@media only screen and (min-width : 980px) and (max-width : 1199px) {
+
+}
+@media only screen and (min-width : 724px) and (max-width : 979px) {
+  .all {
+    header {
+        nav {
+          width: 720px;
+          margin: 0 auto;
+        }
+      }
+    #section_1 {
+      .slider {
+        .item {
+          height: auto;
+          max-height: 400px;
+        }
+      }
+    }
+    #left_menu {
+      width: 20%;
+      padding: 1em 0px;
+    }
+    #content {
+      width: 100%;
+      .some_content {
+        .gallery {
+          .gallery_item {
+            width: 50%;
+          }
+        }
+      }
+    }
+    }
+}
+@media only screen and (min-width : 480px) and (max-width : 723px) {
+  .all {
+    header {
+        nav {
+          width: 480px;
+          margin: 0 auto;
+          ul {
+            li {
+              a {
+                font-size: .8em;
+              }
+            }
+          }
+        }
+      }
+    #section_1 {
+      .slider {
+        .item {
+          height: auto;
+          max-height: 400px;
+        }
+      }
+    }
+    #left_menu {
+      width: 20%;
+      padding: 1em 0px;
+      li {
+        margin-bottom: .7em;
+        a {
+          font-size: 0.8em
+        }
+        &.act{
+          a{
+            text-decoration: none;
+            color: red;
+            font-size: 1em;
+            font-weight: bold;
+          }
+
+          }
+      }
+    }
+    #content {
+      width: 100%;
+      .some_content {
+        .gallery {
+          .gallery_item {
+            width: 100%;
+          }
+        }
+      }
+    }
+    }
+}
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+  .all {
+    header {
+        nav {
+          width: 320px;
+          margin: 0 auto;
+          ul {
+            li {
+              a {
+                font-size: .8em;
+              }
+            }
+          }
+        }
+      }
+    #section_1 {
+      .slider {
+        .item {
+          height: auto;
+          max-height: 400px;
+        }
+      }
+    }
+    #left_menu {
+      width: 20%;
+      padding: 1em 0px;
+      li {
+        margin-bottom: .7em;
+        a {
+          font-size: 0.8em
+        }
+        &.act{
+          a{
+            text-decoration: none;
+            color: red;
+            font-size: 1em;
+            font-weight: bold;
+          }
+
+          }
+      }
+    }
+    #content {
+      width: 100%;
+      .some_content {
+        .gallery {
+          .gallery_item {
+            width: 100%;
+          }
+        }
+      }
+    }
+    }
+}

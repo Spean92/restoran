@@ -2,13 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=8"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Резервация</title>
 <!-- CSS STYLES -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <!-- <link rel="stylesheet" href="css/owl.theme.default.css"> -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 <!-- CSS STYLES END -->
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
   </head>
@@ -22,7 +23,13 @@
               <li><a href="index.html">Главная</a></li>
               <li><a href="gallery.html">Галерея</a></li>
               <li><a href="contacts.html">Контакты</a></li>
-              <li><a href="menu.html">Меню</a></li>
+              <li class="active"><a href="#">Заказ столика</a></li>
+              <li><a href="menu.html">Информация</a>
+                <ul class="subMenu">
+                  <li><a href="menu.html#about">О нас</a></li>
+                  <li><a href="menu.html#menu">Меню</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
         </div>
@@ -51,20 +58,6 @@
           </div>
         <!-- </div> -->
       </section>
-      <!-- <section id="left_menu" class="left_menu">
-        <div class="left_menu_head">
-          Фильтр
-        </div>
-        <div class="left_menu_list">
-          <nav>
-            <ul>
-              <li><a class="act" href="#">Греческая кухня</a></li>
-              <li><a href="#">Итальянская кухня</a></li>
-              <li><a href="#">Украинская кухня</a></li>
-            </ul>
-          </nav>
-        </div>
-      </section> -->
 <!-- Main section -->
 
       <section id="content">
@@ -75,26 +68,83 @@
         <!-- Breadcrums End-->
         <div class="some_content">
             <h3>Зарезервируйте у нас столик</h3>
-            <div class="gallery">
-              <div class="pic">
-                <img src="" alt="imgn">
+            <div id="rezerv" class="gallery">
+              <div class="gallery_item">
+                <div class="pic">
+                  <div class="bg"><p>Бронь</p></div>
+                  <div class="img">
+                    <img src="img/table.jpg" alt="">
+                  </div>
+                </div>
+                <div class="text">Столик 1</div>
               </div>
-              <div class="pic">
-                <img src="" alt="imgn">
+              <div class="gallery_item">
+                <div class="pic">
+                  <div class="bg"><p>Бронь</p></div>
+                  <div class="img">
+                    <img src="img/table.jpg" alt="">
+                  </div>
+                </div>
+                <div class="text">Столик 2</div>
               </div>
-              <div class="pic">
-                <img src="" alt="imgn">
+              <div class="gallery_item">
+                <div class="pic">
+                  <div class="bg"><p>Бронь</p></div>
+                  <div class="img">
+                    <img src="img/table.jpg" alt="">
+                  </div>
+                </div>
+                <div class="text">Столик 3</div>
+              </div>
+              <div class="gallery_item">
+                <div class="pic">
+                  <div class="bg"><p>Бронь</p></div>
+                  <div class="img">
+                    <img src="img/table.jpg" alt="">
+                  </div>
+                </div>
+                <div class="text">Столик 4</div>
+              </div>
+              <div class="gallery_item">
+                <div class="pic">
+                  <div class="bg"><p>Бронь</p></div>
+                  <div class="img">
+                    <img src="img/table.jpg" alt="">
+                  </div>
+                </div>
+                <div class="text">Столик 5</div>
               </div>
             </div>
-            <!-- paggination -->
-            <div class="paggination">
-              <a href="#"></a>
-            </div>
-            <!-- paggination End-->
         </div>
       </section>
   <!-- Main section End -->
-
+  <!-- PopUp -->
+      <div class="popUp">
+        <div class="popUp_bg">
+          <div class="window">
+            <p class="close">X</p>
+            <div class="inner">
+              <h3>Столик 1</h3>
+              <form class="rezerv-form">
+                <input type="text" name="rez-name" value="" placeholder="Введите ваше имя" required="">
+                <select class="select-time" name="select-time" required>
+                  <option selected disabled>Выберите время</option>
+                  <option value="1">8:00</option>
+                  <option value="2">11:00</option>
+                  <option value="3">14:00</option>
+                  <option value="4">17:00</option>
+                  <option value="5">20:00</option>
+                </select>
+                <input type="submit" name="rezerv-button" value="Зарезервировать">
+              </form>
+            </div>
+          </div>
+          <div class="windowThx">
+            <p class="close">X</p>
+            <h3>Спасибо! Ваш столик забронирован</h3>
+          </div>
+        </div>
+      </div>
   <!-- Footer section -->
         <footer>
           <div class="footer_wrap">
@@ -103,13 +153,18 @@
             </div>
             <div class="mySocMedia">
               <div class="facebook">
-                <a href="https://www.facebook.com/egor.muhladi" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#" onclick="this.href='http://www.facebook.com/share.php?u='+window.location.href+window.location.hash" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              </div>
+              <div class="vk">
+                <a href="#"
+     onclick="this.href='https://vk.com/share.php?url='+window.location.href+window.location.hash+'&title='+document.title" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
               </div>
               <div class="linkedin">
                 <a href="https://www.linkedin.com/in/yehor-mukhladi-0a9161107/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
               </div>
-              <div class="GitHub">
-                <a href="https://github.com/Spean92" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <div class="twitter">
+                <a href="#"
+     onclick="this.href='http://twitter.com/timeline/home?status='+document.title+'%20'+window.location.href+window.location.hash" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>

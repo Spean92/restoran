@@ -2,13 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=8"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Menu</title>
 <!-- CSS STYLES -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <!-- <link rel="stylesheet" href="css/owl.theme.default.css"> -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 <!-- CSS STYLES END -->
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
   </head>
@@ -20,9 +21,15 @@
           <nav class="menu">
             <ul>
               <li><a href="index.html">Главная</a></li>
-              <li><a href="gallery.html">Галерея</a></li>
+              <li><a href="#">Галерея</a></li>
               <li><a href="contacts.html">Контакты</a></li>
-              <li class="active"><a href="#">Меню</a></li>
+              <li><a href="rezerv.html">Заказ столика</a></li>
+              <li class="active"><a href="#">Информация</a>
+                <ul class="subMenu">
+                  <li><a href="#about">О нас</a></li>
+                  <li><a href="#menu">Меню</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
         </div>
@@ -58,17 +65,17 @@
         <div class="left_menu_list">
           <nav>
             <ul>
-              <li><a class="act" href="#">Все блюда</a></li>
-              <li><a href="#">Греческая кухня</a></li>
-              <li><a href="#">Итальянская кухня</a></li>
-              <li><a href="#">Украинская кухня</a></li>
+              <li class="act"><a class="allFood" href="#">Все блюда</a></li>
+              <li><a class="greece" href="#">Греческая кухня</a></li>
+              <li><a class="italy" href="#">Итальянская кухня</a></li>
+              <li><a class="ukraine" href="#">Украинская кухня</a></li>
             </ul>
           </nav>
         </div>
       </section>
 <!-- Main section -->
 
-      <section id="content">
+      <section id="content" class="right">
         <!-- Breadcrums -->
         <div class="breadcrums">
           <a href="index.html">Главная</a>&nbsp;/&nbsp;<a href="#" disabled>Меню</a>
@@ -76,48 +83,13 @@
         <!-- Breadcrums End-->
         <div class="some_content">
             <h3>У нас самая разнообразная кухня!</h3>
-            <div class="gallery">
-              <div class="gallery_item">
-                <div class="pic">
-                  <div class="">
-                    <div class="img">
-                      <img src="img/ukraine.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="text">
-                  Название блюда 1
-                </div>
-              </div>
-              <div class="gallery_item">
-                <div class="pic">
-                  <div class="">
-                    <div class="img">
-                      <img src="img/ukraine.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="text">
-                  Название блюда 2
-                </div>
-              </div>
-              <div class="gallery_item">
-                <div class="pic">
-                  <div class="">
-                    <div class="img">
-                      <img src="img/ukraine.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="text">
-                  Название блюда 3
-                </div>
-              </div>
+            <div id="about" class="about">
+              Ведь мы самый лучший ресторан в мире!
             </div>
+            <br>
+            <div id="menu" class="gallery"></div>
             <!-- paggination -->
-            <div class="paggination">
-              <a href="#">1</a>
-            </div>
+            <div id="paggination_menu" class="paggination"></div>
             <!-- paggination End-->
         </div>
       </section>
@@ -131,13 +103,18 @@
             </div>
             <div class="mySocMedia">
               <div class="facebook">
-                <a href="https://www.facebook.com/egor.muhladi" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#" onclick="this.href='http://www.facebook.com/share.php?u='+window.location.href+window.location.hash" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              </div>
+              <div class="vk">
+                <a href="#"
+     onclick="this.href='https://vk.com/share.php?url='+window.location.href+window.location.hash+'&title='+document.title" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
               </div>
               <div class="linkedin">
                 <a href="https://www.linkedin.com/in/yehor-mukhladi-0a9161107/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
               </div>
-              <div class="GitHub">
-                <a href="https://github.com/Spean92" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <div class="twitter">
+                <a href="#"
+     onclick="this.href='http://twitter.com/timeline/home?status='+document.title+'%20'+window.location.href+window.location.hash" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>

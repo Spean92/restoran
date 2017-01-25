@@ -1,0 +1,109 @@
+{
+  "menu" : [
+    {
+      "id" : 1,
+      "img" : "img/menu/ukraine.jpg",
+      "name" : "Название блюда1",
+      "price" : "1",
+      "food" : "ukraine"
+    },
+    {
+      "id" : 2,
+      "img" : "img/menu/ukraine.jpg",
+      "name" : "Название блюда2",
+      "price" : "2",
+      "food" : "ukraine"
+    },
+    {
+      "id" : 3,
+      "img" : "img/menu/ukraine.jpg",
+      "name" : "Название блюда3",
+      "price" : "4",
+      "food" : "ukraine"
+    },
+    {
+      "id" : 4,
+      "img" : "img/menu/ukraine.jpg",
+      "name" : "Название блюда4",
+      "price" : "5",
+      "food" : "ukraine"
+    },
+    {
+      "id" : 5,
+      "img" : "img/menu/italy.jpg",
+      "name" : "Название блюда1",
+      "price" : "15",
+      "food" : "italy"
+    },
+    {
+      "id" : 6,
+      "img" : "img/menu/italy.jpg",
+      "name" : "Название блюда2",
+      "price" : "13",
+      "food" : "italy"
+    },
+    {
+      "id" : 7,
+      "img" : "img/menu/italy.jpg",
+      "name" : "Название блюда3",
+      "price" : "9",
+      "food" : "italy"
+    },
+    {
+      "id" : 8,
+      "img" : "img/menu/italy.jpg",
+      "name" : "Название блюда4",
+      "price" : "2",
+      "food" : "italy"
+    },
+    {
+      "id" : 9,
+      "img" : "img/menu/italy.jpg",
+      "name" : "Название блюда5",
+      "price" : "4",
+      "food" : "italy"
+    },
+    {
+      "id" : 10,
+      "img" : "img/menu/italy.jpg",
+      "name" : "Название блюда6",
+      "price" : "5",
+      "food" : "italy"
+    },
+    {
+      "id" : 11,
+      "img" : "img/menu/greece.jpg",
+      "name" : "Название блюда1",
+      "price" : "3",
+      "food" : "greece"
+    },
+    {
+      "id" : 12,
+      "img" : "img/menu/greece.jpg",
+      "name" : "Название блюда2",
+      "price" : "10",
+      "food" : "greece"
+    },
+    {
+      "id" : 13,
+      "img" : "img/menu/greece.jpg",
+      "name" : "Название блюда3",
+      "price" : "9",
+      "food" : "greece"
+    },
+    {
+      "id" : 14,
+      "img" : "img/menu/greece.jpg",
+      "name" : "Название блюда4",
+      "price" : "6",
+      "food" : "greece"
+    },
+    {
+      "id" : 15,
+      "img" : "img/menu/greece.jpg",
+      "name" : "Название блюда5",
+      "price" : "5",
+      "food" : "greece"
+    }
+  ]
+}

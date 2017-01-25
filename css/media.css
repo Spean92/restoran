@@ -1,0 +1,113 @@
+@media only screen and (min-width: 724px) and (max-width: 979px) {
+  /* line 7, ../sass/media.scss */
+  .all header nav {
+    width: 720px;
+    margin: 0 auto;
+  }
+  /* line 14, ../sass/media.scss */
+  .all #section_1 .slider .item {
+    height: auto;
+    max-height: 400px;
+  }
+  /* line 20, ../sass/media.scss */
+  .all #left_menu {
+    width: 20%;
+    padding: 1em 0px;
+  }
+  /* line 24, ../sass/media.scss */
+  .all #content {
+    width: 100%;
+  }
+  /* line 28, ../sass/media.scss */
+  .all #content .some_content .gallery .gallery_item {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 723px) {
+  /* line 39, ../sass/media.scss */
+  .all header nav {
+    width: 480px;
+    margin: 0 auto;
+  }
+  /* line 44, ../sass/media.scss */
+  .all header nav ul li a {
+    font-size: .8em;
+  }
+  /* line 53, ../sass/media.scss */
+  .all #section_1 .slider .item {
+    height: auto;
+    max-height: 400px;
+  }
+  /* line 59, ../sass/media.scss */
+  .all #left_menu {
+    width: 20%;
+    padding: 1em 0px;
+  }
+  /* line 62, ../sass/media.scss */
+  .all #left_menu li {
+    margin-bottom: .7em;
+  }
+  /* line 64, ../sass/media.scss */
+  .all #left_menu li a {
+    font-size: 0.8em;
+  }
+  /* line 68, ../sass/media.scss */
+  .all #left_menu li.act a {
+    text-decoration: none;
+    color: red;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  /* line 78, ../sass/media.scss */
+  .all #content {
+    width: 100%;
+  }
+  /* line 82, ../sass/media.scss */
+  .all #content .some_content .gallery .gallery_item {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  /* line 93, ../sass/media.scss */
+  .all header nav {
+    width: 320px;
+    margin: 0 auto;
+  }
+  /* line 98, ../sass/media.scss */
+  .all header nav ul li a {
+    font-size: .8em;
+  }
+  /* line 107, ../sass/media.scss */
+  .all #section_1 .slider .item {
+    height: auto;
+    max-height: 400px;
+  }
+  /* line 113, ../sass/media.scss */
+  .all #left_menu {
+    width: 20%;
+    padding: 1em 0px;
+  }
+  /* line 116, ../sass/media.scss */
+  .all #left_menu li {
+    margin-bottom: .7em;
+  }
+  /* line 118, ../sass/media.scss */
+  .all #left_menu li a {
+    font-size: 0.8em;
+  }
+  /* line 122, ../sass/media.scss */
+  .all #left_menu li.act a {
+    text-decoration: none;
+    color: red;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  /* line 132, ../sass/media.scss */
+  .all #content {
+    width: 100%;
+  }
+  /* line 136, ../sass/media.scss */
+  .all #content .some_content .gallery .gallery_item {
+    width: 100%;
+  }
+}

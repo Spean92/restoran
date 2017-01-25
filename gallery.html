@@ -2,13 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=8"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Галлерея</title>
 <!-- CSS STYLES -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <!-- <link rel="stylesheet" href="css/owl.theme.default.css"> -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 <!-- CSS STYLES END -->
 <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
   </head>
@@ -22,7 +23,13 @@
               <li><a href="index.html">Главная</a></li>
               <li class="active"><a href="#">Галерея</a></li>
               <li><a href="contacts.html">Контакты</a></li>
-              <li><a href="menu.html">Меню</a></li>
+              <li><a href="rezerv.html">Заказ столика</a></li>
+              <li><a href="menu.html">Информация</a>
+                <ul class="subMenu">
+                  <li><a href="menu.html#about">О нас</a></li>
+                  <li><a href="menu.html#menu">Меню</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
         </div>
@@ -75,50 +82,13 @@
         <!-- Breadcrums End-->
         <div class="some_content">
             <h3>Фотографии нашего ресторана</h3>
-            <div class="gallery">
-              <div class="gallery_item">
-                <div class="pic">
-                  <div class="">
-                    <div class="img">
-                      <img src="img/rest1.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery_item">
-                <div class="pic">
-                  <div class="">
-                    <div class="img">
-                      <img src="img/rest2.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery_item">
-                <div class="pic">
-                  <div class="">
-                    <div class="img">
-                      <img src="img/rest3.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="gallery_item">
-                <div class="pic">
-                  <div class="">
-                    <div class="img">
-                      <img src="img/rest4.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div id="gallery" class="gallery"></div>
             <!-- paggination -->
-            <div class="paggination">
-              <a href="#">1</a>
-            </div>
+            <div id="paggination" class="paggination"></div>
+            <!-- <div id="pagingControls" class="paggination"></div> -->
             <!-- paggination End-->
         </div>
+
       </section>
   <!-- Main section End -->
 
@@ -130,13 +100,18 @@
             </div>
             <div class="mySocMedia">
               <div class="facebook">
-                <a href="https://www.facebook.com/egor.muhladi" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#" onclick="this.href='http://www.facebook.com/share.php?u='+window.location.href+window.location.hash" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              </div>
+              <div class="vk">
+                <a href="#"
+     onclick="this.href='https://vk.com/share.php?url='+window.location.href+window.location.hash+'&title='+document.title" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
               </div>
               <div class="linkedin">
                 <a href="https://www.linkedin.com/in/yehor-mukhladi-0a9161107/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
               </div>
-              <div class="GitHub">
-                <a href="https://github.com/Spean92" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <div class="twitter">
+                <a href="#"
+     onclick="this.href='http://twitter.com/timeline/home?status='+document.title+'%20'+window.location.href+window.location.hash" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
@@ -148,6 +123,7 @@
       <script type="text/javascript" src="js/jquery.min1.12.4.js"></script>
       <script type="text/javascript" src="js/owl.carousel.min.js"></script>
       <script type="text/javascript" src="js/main.js"></script>
+
   <!-- SCRIPT SECTION END-->
 
     </body>
