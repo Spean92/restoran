@@ -41,6 +41,7 @@ html {
             width: 20%;
             background: #666;
             font-size: 1rem;
+            font-size: 14px;
             // letter-spacing: 0;
             border-right: 1px solid black;
             transition: all .3s ease-in-out;
@@ -149,6 +150,7 @@ html {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+
     &.right {
       float: right;
       width: 80%;

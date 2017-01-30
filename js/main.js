@@ -58,13 +58,7 @@
       var dataLength = data.menu.length;
       // get picture from json
       function getPic(typeOfFood) {
-            // for (var j = 0; j < dataLength; j++) {
             $.each(data.menu, function(i, item){
-                // var id = data.menu[j].id;
-                // var imgUrl = data.menu[j].img;
-                // var name = data.menu[j].name;
-                // var price = data.menu[j].price;
-                // var type = data.menu[j].food;
                  its = data.menu[i];
                 var id = this.id;
                 var imgUrl = this.img;
@@ -108,7 +102,7 @@
             getPic(foodType);
             break;
           default:
-          alert("shit");
+          alert("");
         }
         var curFood = $(this).siblings("#left_menu li");
         $("#left_menu li").not(curFood).addClass("act");
@@ -164,10 +158,9 @@
                if (headStol.text() == reservet) {
                  for (var k = 1; k < 5; k++) {
                   var allTime = $("select option[value='"+k+"']");
+                  allTime.removeAttr("disabled");
                   if (allTime.text() == reservetTime) {
                     allTime.attr("disabled","true");
-                  } else {
-                    // allTime.removeAttr("disabled");
                   }
                  }
                }
@@ -211,7 +204,6 @@
     } catch (e) {
       alert("Ошибка в localStorage" + e.name + ":" + e.message + "\n" + e.stack);
     };
-
 
   // end of $(document).ready
   });
